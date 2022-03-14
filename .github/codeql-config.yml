@@ -1,4 +1,4 @@
 name: "Only critical queries"
 disable-default-queries: true
 queries:
-  - uses: .github/critical.qls
+  - uses: ./.github/critical.qls
