@@ -1,0 +1,4 @@
+name: "Only critical queries"
+disable-default-queries: true
+queries:
+  - uses: critical.qls
