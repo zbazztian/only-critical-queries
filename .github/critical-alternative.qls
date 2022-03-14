@@ -1,0 +1,4 @@
+- import: codeql-suites/java-code-scanning.qls
+  from: codeql/java-queries         # our query pack is based on the original one
+- exclude:
+    security-severity: /([0-8]\.[0-9]+|9\.0+)/
